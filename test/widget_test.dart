@@ -7,7 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jombay_login/Screens/login_screen.dart';
+import 'package:jombay_login/Screens/login/login_screen.dart';
 
 import 'package:jombay_login/main.dart';
 

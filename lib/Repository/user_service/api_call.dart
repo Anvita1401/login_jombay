@@ -6,7 +6,7 @@ class UserService {
 
   Future<Map<String, dynamic>> fetchUserData(String token) async {
     final response = await _dio.get(
-      ' https://authapi.ur-nl.com/users/current',
+      'https://authapi.ur-nl.com/users/current',
       options: Options(
         headers: {
           'Content-Type': 'application/json',
